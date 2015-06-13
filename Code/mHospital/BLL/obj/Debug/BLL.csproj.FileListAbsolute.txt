@@ -1,0 +1,7 @@
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\bin\Debug\BLL.dll
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\bin\Debug\BLL.pdb
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\bin\Debug\DAL.dll
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\bin\Debug\DAL.pdb
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\obj\Debug\BLL.dll
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\obj\Debug\BLL.pdb

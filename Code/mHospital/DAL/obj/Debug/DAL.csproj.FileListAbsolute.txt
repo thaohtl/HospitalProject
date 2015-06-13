@@ -1,0 +1,5 @@
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\DAL\bin\Debug\DAL.dll
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\DAL\bin\Debug\DAL.pdb
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\DAL\obj\Debug\DAL.dll
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\DAL\obj\Debug\DAL.pdb

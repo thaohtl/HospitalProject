@@ -1,0 +1,16 @@
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\mHospital.exe.config
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\mHospital.exe
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\mHospital.pdb
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.csprojResolveAssemblyReference.cache
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.frmAbout.resources
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.frmLogin.resources
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.frmMHospital.resources
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.frmPermission.resources
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.Properties.Resources.resources
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.csproj.GenerateResource.Cache
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.exe
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\obj\Debug\mHospital.pdb
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\BLL.dll
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\DAL.dll
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\BLL.pdb
+c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\DAL.pdb
