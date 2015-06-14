@@ -116,9 +116,12 @@
             this.Controls.Add(this.grbInfoProject);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.rtbInfoProject);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin chương trình";
+            this.Load += new System.EventHandler(this.frmAbout_Load);
             this.grbInfoProject.ResumeLayout(false);
             this.grbInfoProject.PerformLayout();
             this.ResumeLayout(false);

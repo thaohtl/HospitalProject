@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace mHospital
 {
-    public partial class frmMHospital : Form
+    public partial class frmMHospital : DevComponents.DotNetBar.Office2007Form
     {
         public frmMHospital()
         {

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace mHospital
 {
-    public partial class frmLogin : Form
+    public partial class frmLogin : DevComponents.DotNetBar.Office2007Form
     {
         public frmLogin()
         {
@@ -20,6 +20,16 @@ namespace mHospital
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmLogin_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

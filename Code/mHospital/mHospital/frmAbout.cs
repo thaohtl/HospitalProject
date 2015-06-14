@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace mHospital
 {
-    public partial class frmAbout : Form
+    public partial class frmAbout : DevComponents.DotNetBar.Office2007Form
     {
         public frmAbout()
         {
@@ -25,6 +25,11 @@ namespace mHospital
         private void btnOk_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmAbout_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
