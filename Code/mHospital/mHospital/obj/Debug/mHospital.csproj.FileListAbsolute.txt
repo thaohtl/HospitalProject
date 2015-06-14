@@ -14,6 +14,7 @@ c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\D
 c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\DAL.dll
 c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\BLL.pdb
 c:\users\chicken\documents\visual studio 2013\Projects\mHospital\mHospital\bin\Debug\DAL.pdb
+<<<<<<< HEAD
 D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\bin\Debug\mHospital.exe.config
 D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.exe
 D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.pdb
@@ -31,3 +32,8 @@ D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\m
 D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.frmPermission.resources
 D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.Properties.Resources.resources
 D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.csproj.GenerateResource.Cache
+=======
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\mHospital\bin\Debug\mHospital.exe.config
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.exe
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.pdb
+>>>>>>> ee8cc86e53e2eab63d39865a93cd1095d2116559

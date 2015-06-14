@@ -1,0 +1,3 @@
+D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\bin\Debug\mHospital.exe.config
+D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.exe
+D:\MyGithub\HospitalProject\HospitalProject\Code\mHospital\mHospital\obj\Debug\mHospital.pdb
