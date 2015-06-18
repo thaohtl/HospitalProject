@@ -1,0 +1,5 @@
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\bin\Debug\DTO.dll
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\bin\Debug\DTO.pdb
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\obj\Debug\DTO.dll
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\obj\Debug\DTO.pdb

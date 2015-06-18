@@ -5,3 +5,10 @@ c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\bin\Debug\D
 c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\obj\Debug\BLL.dll
 c:\users\chicken\documents\visual studio 2013\Projects\mHospital\BLL\obj\Debug\BLL.pdb
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\bin\Debug\BLL.dll
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\bin\Debug\BLL.pdb
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\bin\Debug\DAL.dll
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\bin\Debug\DAL.pdb
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\obj\Debug\BLL.dll
+D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\obj\Debug\BLL.pdb
