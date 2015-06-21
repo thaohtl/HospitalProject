@@ -12,3 +12,10 @@ D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\bin\Debug\DAL.pdb
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\obj\Debug\BLL.dll
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\BLL\obj\Debug\BLL.pdb
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\BLL\bin\Debug\BLL.dll
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\BLL\bin\Debug\BLL.pdb
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\BLL\bin\Debug\DAL.dll
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\BLL\bin\Debug\DAL.pdb
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\BLL\obj\Debug\BLL.dll
+F:\SE\8.ThuctapCNTT\Project\HospitalProject\Code\mHospital\BLL\obj\Debug\BLL.pdb

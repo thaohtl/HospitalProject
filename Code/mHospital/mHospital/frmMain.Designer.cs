@@ -30,15 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMHospital));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ribbonControl = new DevComponents.DotNetBar.RibbonControl();
-            this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
-            this.rbbTaskUser = new DevComponents.DotNetBar.RibbonBar();
-            this.btnSignOut = new DevComponents.DotNetBar.ButtonItem();
-            this.btnControlU = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
             this.rbbTaskHelp = new DevComponents.DotNetBar.RibbonBar();
             this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
             this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
+            this.rbbTaskUser = new DevComponents.DotNetBar.RibbonBar();
+            this.btnSignOut = new DevComponents.DotNetBar.ButtonItem();
+            this.btnControlU = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
             this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.office2007StartButton1 = new DevComponents.DotNetBar.Office2007StartButton();
@@ -62,21 +63,36 @@
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
+            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.btnKetQuaCLS = new DevComponents.DotNetBar.ButtonX();
+            this.btnChiDinhCLS = new DevComponents.DotNetBar.ButtonX();
+            this.btnDanhMucCLS = new DevComponents.DotNetBar.ButtonX();
+            this.txtSearchCLS = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.grvCLS = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel5 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
             this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel5 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.maBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenPhongKham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenXN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenBS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ribbonControl.SuspendLayout();
-            this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
+            this.ribbonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
+            this.tabControlPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grvCLS)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl
@@ -99,6 +115,52 @@
             this.ribbonControl.TabGroupHeight = 14;
             this.ribbonControl.TabIndex = 0;
             this.ribbonControl.Click += new System.EventHandler(this.ribbonControl_Click);
+            // 
+            // ribbonPanel2
+            // 
+            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonPanel2.Controls.Add(this.rbbTaskHelp);
+            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel2.Location = new System.Drawing.Point(0, 25);
+            this.ribbonPanel2.Name = "ribbonPanel2";
+            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel2.Size = new System.Drawing.Size(825, 93);
+            this.ribbonPanel2.TabIndex = 2;
+            // 
+            // rbbTaskHelp
+            // 
+            this.rbbTaskHelp.AutoOverflowEnabled = true;
+            this.rbbTaskHelp.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rbbTaskHelp.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnHelp,
+            this.btnAbout});
+            this.rbbTaskHelp.Location = new System.Drawing.Point(3, 0);
+            this.rbbTaskHelp.Name = "rbbTaskHelp";
+            this.rbbTaskHelp.Size = new System.Drawing.Size(128, 90);
+            this.rbbTaskHelp.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.rbbTaskHelp.TabIndex = 0;
+            this.rbbTaskHelp.Text = "Tác vụ";
+            // 
+            // btnHelp
+            // 
+            this.btnHelp.Image = global::mHospital.Properties.Resources.question;
+            this.btnHelp.ImagePaddingHorizontal = 8;
+            this.btnHelp.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.SubItemsExpandWidth = 14;
+            this.btnHelp.Text = "Hướng dẫn sử dụng";
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.Image = global::mHospital.Properties.Resources.home;
+            this.btnAbout.ImagePaddingHorizontal = 8;
+            this.btnAbout.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.RibbonWordWrap = false;
+            this.btnAbout.SubItemsExpandWidth = 14;
+            this.btnAbout.Text = "Thông tin";
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // ribbonPanel1
             // 
@@ -150,52 +212,6 @@
             this.btnControlU.SubItemsExpandWidth = 14;
             this.btnControlU.Text = "Quản trị";
             this.btnControlU.Click += new System.EventHandler(this.btnControlU_Click);
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.ribbonPanel2.Controls.Add(this.rbbTaskHelp);
-            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel2.Location = new System.Drawing.Point(0, 25);
-            this.ribbonPanel2.Name = "ribbonPanel2";
-            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel2.Size = new System.Drawing.Size(825, 93);
-            this.ribbonPanel2.TabIndex = 2;
-            // 
-            // rbbTaskHelp
-            // 
-            this.rbbTaskHelp.AutoOverflowEnabled = true;
-            this.rbbTaskHelp.Dock = System.Windows.Forms.DockStyle.Left;
-            this.rbbTaskHelp.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnHelp,
-            this.btnAbout});
-            this.rbbTaskHelp.Location = new System.Drawing.Point(3, 0);
-            this.rbbTaskHelp.Name = "rbbTaskHelp";
-            this.rbbTaskHelp.Size = new System.Drawing.Size(128, 90);
-            this.rbbTaskHelp.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.rbbTaskHelp.TabIndex = 0;
-            this.rbbTaskHelp.Text = "Tác vụ";
-            // 
-            // btnHelp
-            // 
-            this.btnHelp.Image = global::mHospital.Properties.Resources.question;
-            this.btnHelp.ImagePaddingHorizontal = 8;
-            this.btnHelp.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.SubItemsExpandWidth = 14;
-            this.btnHelp.Text = "Hướng dẫn sử dụng";
-            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
-            // 
-            // btnAbout
-            // 
-            this.btnAbout.Image = global::mHospital.Properties.Resources.home;
-            this.btnAbout.ImagePaddingHorizontal = 8;
-            this.btnAbout.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.RibbonWordWrap = false;
-            this.btnAbout.SubItemsExpandWidth = 14;
-            this.btnAbout.Text = "Thông tin";
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // ribbonTabItem1
             // 
@@ -417,17 +433,18 @@
             // 
             this.tabControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.tabControl.CanReorderTabs = true;
-            this.tabControl.Controls.Add(this.tabControlPanel1);
-            this.tabControl.Controls.Add(this.tabControlPanel5);
-            this.tabControl.Controls.Add(this.tabControlPanel4);
             this.tabControl.Controls.Add(this.tabControlPanel3);
+            this.tabControl.Controls.Add(this.tabControlPanel1);
             this.tabControl.Controls.Add(this.tabControlPanel2);
+            this.tabControl.Controls.Add(this.tabControlPanel4);
+            this.tabControl.Controls.Add(this.tabControlPanel5);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Location = new System.Drawing.Point(0, 120);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.tabControl.SelectedTabIndex = 4;
             this.tabControl.Size = new System.Drawing.Size(825, 436);
+            this.tabControl.Style = DevComponents.DotNetBar.eTabStripStyle.Office2007Document;
             this.tabControl.TabIndex = 1;
             this.tabControl.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
             this.tabControl.Tabs.Add(this.tabItem1);
@@ -437,17 +454,134 @@
             this.tabControl.Tabs.Add(this.tabItem5);
             this.tabControl.Text = "tabControl1";
             // 
+            // tabControlPanel3
+            // 
+            this.tabControlPanel3.Controls.Add(this.labelX2);
+            this.tabControlPanel3.Controls.Add(this.labelX1);
+            this.tabControlPanel3.Controls.Add(this.btnKetQuaCLS);
+            this.tabControlPanel3.Controls.Add(this.btnChiDinhCLS);
+            this.tabControlPanel3.Controls.Add(this.btnDanhMucCLS);
+            this.tabControlPanel3.Controls.Add(this.txtSearchCLS);
+            this.tabControlPanel3.Controls.Add(this.grvCLS);
+            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel3.Location = new System.Drawing.Point(0, 22);
+            this.tabControlPanel3.Name = "tabControlPanel3";
+            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel3.Size = new System.Drawing.Size(825, 414);
+            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel3.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
+            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel3.Style.GradientAngle = 90;
+            this.tabControlPanel3.TabIndex = 3;
+            this.tabControlPanel3.TabItem = this.tabItem3;
+            // 
+            // labelX2
+            // 
+            this.labelX2.BackColor = System.Drawing.Color.Transparent;
+            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX2.Location = new System.Drawing.Point(155, 96);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(85, 22);
+            this.labelX2.TabIndex = 3;
+            this.labelX2.Text = "Tìm kiếm";
+            // 
+            // labelX1
+            // 
+            this.labelX1.BackColor = System.Drawing.Color.Transparent;
+            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX1.Location = new System.Drawing.Point(101, 40);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(529, 50);
+            this.labelX1.TabIndex = 3;
+            this.labelX1.Text = "Danh sách bệnh nhân chờ khám Cận lâm sàng";
+            // 
+            // btnKetQuaCLS
+            // 
+            this.btnKetQuaCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnKetQuaCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnKetQuaCLS.Location = new System.Drawing.Point(700, 316);
+            this.btnKetQuaCLS.Name = "btnKetQuaCLS";
+            this.btnKetQuaCLS.Size = new System.Drawing.Size(113, 58);
+            this.btnKetQuaCLS.TabIndex = 2;
+            this.btnKetQuaCLS.Text = "Kết quả CLS";
+            // 
+            // btnChiDinhCLS
+            // 
+            this.btnChiDinhCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnChiDinhCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnChiDinhCLS.Location = new System.Drawing.Point(700, 228);
+            this.btnChiDinhCLS.Name = "btnChiDinhCLS";
+            this.btnChiDinhCLS.Size = new System.Drawing.Size(113, 58);
+            this.btnChiDinhCLS.TabIndex = 2;
+            this.btnChiDinhCLS.Text = "Chỉ định CLS";
+            // 
+            // btnDanhMucCLS
+            // 
+            this.btnDanhMucCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDanhMucCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnDanhMucCLS.Location = new System.Drawing.Point(700, 129);
+            this.btnDanhMucCLS.Name = "btnDanhMucCLS";
+            this.btnDanhMucCLS.Size = new System.Drawing.Size(113, 58);
+            this.btnDanhMucCLS.TabIndex = 2;
+            this.btnDanhMucCLS.Text = "Quản lý danh mục CLS";
+            // 
+            // txtSearchCLS
+            // 
+            // 
+            // 
+            // 
+            this.txtSearchCLS.Border.Class = "TextBoxBorder";
+            this.txtSearchCLS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchCLS.Location = new System.Drawing.Point(246, 96);
+            this.txtSearchCLS.Name = "txtSearchCLS";
+            this.txtSearchCLS.Size = new System.Drawing.Size(220, 22);
+            this.txtSearchCLS.TabIndex = 1;
+            this.txtSearchCLS.WatermarkText = "Nhập mã hoặc tên bệnh nhân";
+            // 
+            // grvCLS
+            // 
+            this.grvCLS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grvCLS.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.maBN,
+            this.tenBN,
+            this.tenPhongKham,
+            this.tenXN,
+            this.time,
+            this.tenBS});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grvCLS.DefaultCellStyle = dataGridViewCellStyle1;
+            this.grvCLS.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.grvCLS.Location = new System.Drawing.Point(30, 129);
+            this.grvCLS.Name = "grvCLS";
+            this.grvCLS.Size = new System.Drawing.Size(643, 245);
+            this.grvCLS.TabIndex = 0;
+            // 
+            // tabItem3
+            // 
+            this.tabItem3.AttachedControl = this.tabControlPanel3;
+            this.tabItem3.Name = "tabItem3";
+            this.tabItem3.Text = "Cận lâm sàng";
+            // 
             // tabControlPanel1
             // 
             this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel1.Location = new System.Drawing.Point(0, 26);
+            this.tabControlPanel1.Location = new System.Drawing.Point(0, 22);
             this.tabControlPanel1.Name = "tabControlPanel1";
             this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel1.Size = new System.Drawing.Size(825, 410);
-            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.tabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
+            this.tabControlPanel1.Size = new System.Drawing.Size(825, 414);
+            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
             this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
             this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
             this.tabControlPanel1.Style.GradientAngle = 90;
@@ -460,40 +594,40 @@
             this.tabItem1.Name = "tabItem1";
             this.tabItem1.Text = "Tiếp đón bệnh nhân";
             // 
-            // tabControlPanel5
+            // tabControlPanel2
             // 
-            this.tabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel5.Location = new System.Drawing.Point(0, 26);
-            this.tabControlPanel5.Name = "tabControlPanel5";
-            this.tabControlPanel5.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel5.Size = new System.Drawing.Size(825, 410);
-            this.tabControlPanel5.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.tabControlPanel5.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
-            this.tabControlPanel5.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel5.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.tabControlPanel5.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel2.Location = new System.Drawing.Point(0, 22);
+            this.tabControlPanel2.Name = "tabControlPanel2";
+            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel2.Size = new System.Drawing.Size(825, 414);
+            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
+            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel5.Style.GradientAngle = 90;
-            this.tabControlPanel5.TabIndex = 5;
-            this.tabControlPanel5.TabItem = this.tabItem5;
+            this.tabControlPanel2.Style.GradientAngle = 90;
+            this.tabControlPanel2.TabIndex = 2;
+            this.tabControlPanel2.TabItem = this.tabItem2;
             // 
-            // tabItem5
+            // tabItem2
             // 
-            this.tabItem5.AttachedControl = this.tabControlPanel5;
-            this.tabItem5.Name = "tabItem5";
-            this.tabItem5.Text = "Viện phí";
+            this.tabItem2.AttachedControl = this.tabControlPanel2;
+            this.tabItem2.Name = "tabItem2";
+            this.tabItem2.Text = "Ngoại trú";
             // 
             // tabControlPanel4
             // 
             this.tabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel4.Location = new System.Drawing.Point(0, 26);
+            this.tabControlPanel4.Location = new System.Drawing.Point(0, 22);
             this.tabControlPanel4.Name = "tabControlPanel4";
             this.tabControlPanel4.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel4.Size = new System.Drawing.Size(825, 410);
-            this.tabControlPanel4.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.tabControlPanel4.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
+            this.tabControlPanel4.Size = new System.Drawing.Size(825, 414);
+            this.tabControlPanel4.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel4.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
             this.tabControlPanel4.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel4.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.tabControlPanel4.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
             this.tabControlPanel4.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
             this.tabControlPanel4.Style.GradientAngle = 90;
@@ -506,51 +640,58 @@
             this.tabItem4.Name = "tabItem4";
             this.tabItem4.Text = "Quản lý dược";
             // 
-            // tabControlPanel3
+            // tabControlPanel5
             // 
-            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel3.Location = new System.Drawing.Point(0, 26);
-            this.tabControlPanel3.Name = "tabControlPanel3";
-            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel3.Size = new System.Drawing.Size(825, 410);
-            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.tabControlPanel3.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
-            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.tabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel5.Location = new System.Drawing.Point(0, 22);
+            this.tabControlPanel5.Name = "tabControlPanel5";
+            this.tabControlPanel5.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel5.Size = new System.Drawing.Size(825, 414);
+            this.tabControlPanel5.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel5.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
+            this.tabControlPanel5.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel5.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel5.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel3.Style.GradientAngle = 90;
-            this.tabControlPanel3.TabIndex = 3;
-            this.tabControlPanel3.TabItem = this.tabItem3;
+            this.tabControlPanel5.Style.GradientAngle = 90;
+            this.tabControlPanel5.TabIndex = 5;
+            this.tabControlPanel5.TabItem = this.tabItem5;
             // 
-            // tabItem3
+            // tabItem5
             // 
-            this.tabItem3.AttachedControl = this.tabControlPanel3;
-            this.tabItem3.Name = "tabItem3";
-            this.tabItem3.Text = "Cận lâm sàng";
+            this.tabItem5.AttachedControl = this.tabControlPanel5;
+            this.tabItem5.Name = "tabItem5";
+            this.tabItem5.Text = "Viện phí";
             // 
-            // tabControlPanel2
+            // maBN
             // 
-            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel2.Location = new System.Drawing.Point(0, 26);
-            this.tabControlPanel2.Name = "tabControlPanel2";
-            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel2.Size = new System.Drawing.Size(825, 410);
-            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.tabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
-            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel2.Style.GradientAngle = 90;
-            this.tabControlPanel2.TabIndex = 2;
-            this.tabControlPanel2.TabItem = this.tabItem2;
+            this.maBN.HeaderText = "Mã bệnh nhân";
+            this.maBN.Name = "maBN";
             // 
-            // tabItem2
+            // tenBN
             // 
-            this.tabItem2.AttachedControl = this.tabControlPanel2;
-            this.tabItem2.Name = "tabItem2";
-            this.tabItem2.Text = "Ngoại trú";
+            this.tenBN.HeaderText = "Họ và tên";
+            this.tenBN.Name = "tenBN";
+            // 
+            // tenPhongKham
+            // 
+            this.tenPhongKham.HeaderText = "Tên phòng khám";
+            this.tenPhongKham.Name = "tenPhongKham";
+            // 
+            // tenXN
+            // 
+            this.tenXN.HeaderText = "Tên xét nghiệm";
+            this.tenXN.Name = "tenXN";
+            // 
+            // time
+            // 
+            this.time.HeaderText = "Ngày giờ thực hiện";
+            this.time.Name = "time";
+            // 
+            // tenBS
+            // 
+            this.tenBS.HeaderText = "Bác sĩ chỉ định";
+            this.tenBS.Name = "tenBS";
             // 
             // frmMHospital
             // 
@@ -568,10 +709,12 @@
             this.Load += new System.EventHandler(this.frmMHospital_Load);
             this.ribbonControl.ResumeLayout(false);
             this.ribbonControl.PerformLayout();
-            this.ribbonPanel1.ResumeLayout(false);
             this.ribbonPanel2.ResumeLayout(false);
+            this.ribbonPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).EndInit();
             this.tabControl.ResumeLayout(false);
+            this.tabControlPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grvCLS)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -620,6 +763,19 @@
         private DevComponents.DotNetBar.ButtonItem btnControlU;
         private DevComponents.DotNetBar.ButtonItem btnHelp;
         private DevComponents.DotNetBar.ButtonItem btnAbout;
+        private DevComponents.DotNetBar.Controls.DataGridViewX grvCLS;
+        private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.ButtonX btnKetQuaCLS;
+        private DevComponents.DotNetBar.ButtonX btnChiDinhCLS;
+        private DevComponents.DotNetBar.ButtonX btnDanhMucCLS;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtSearchCLS;
+        private DevComponents.DotNetBar.LabelX labelX2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maBN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenBN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenPhongKham;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenXN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn time;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenBS;
 
 
 

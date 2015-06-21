@@ -57,6 +57,30 @@
     <Compile Include="frmAbout.Designer.cs">
       <DependentUpon>frmAbout.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmChiDinhCLS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiDinhCLS.Designer.cs">
+      <DependentUpon>frmChiDinhCLS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiTietKetQuaCLS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiTietKetQuaCLS.Designer.cs">
+      <DependentUpon>frmChiTietKetQuaCLS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDanhMucCLS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDanhMucCLS.Designer.cs">
+      <DependentUpon>frmDanhMucCLS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKetQuaCLS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetQuaCLS.Designer.cs">
+      <DependentUpon>frmKetQuaCLS.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +103,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAbout.resx">
       <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiDinhCLS.resx">
+      <DependentUpon>frmChiDinhCLS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiTietKetQuaCLS.resx">
+      <DependentUpon>frmChiTietKetQuaCLS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanhMucCLS.resx">
+      <DependentUpon>frmDanhMucCLS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetQuaCLS.resx">
+      <DependentUpon>frmKetQuaCLS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
