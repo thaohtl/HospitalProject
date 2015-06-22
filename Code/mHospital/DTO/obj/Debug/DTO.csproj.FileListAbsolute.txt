@@ -3,3 +3,8 @@ D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\bin\Debug\DTO.pdb
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\obj\Debug\DTO.dll
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\DTO\obj\Debug\DTO.pdb
+C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\bin\Debug\DTO.dll
+C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\bin\Debug\DTO.pdb
+C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\obj\Debug\DTO.dll
+C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\obj\Debug\DTO.pdb
