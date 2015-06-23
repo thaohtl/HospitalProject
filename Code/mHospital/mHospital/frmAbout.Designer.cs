@@ -29,92 +29,110 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAbout));
-            this.grbInfoProject = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.likMTA = new System.Windows.Forms.LinkLabel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnOk = new System.Windows.Forms.Button();
             this.rtbInfoProject = new System.Windows.Forms.RichTextBox();
-            this.grbInfoProject.SuspendLayout();
+            this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
+            this.labelX4 = new DevComponents.DotNetBar.LabelX();
+            this.btnExit = new DevComponents.DotNetBar.ButtonX();
+            this.groupPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // grbInfoProject
-            // 
-            this.grbInfoProject.Controls.Add(this.label3);
-            this.grbInfoProject.Controls.Add(this.likMTA);
-            this.grbInfoProject.Controls.Add(this.label2);
-            this.grbInfoProject.Controls.Add(this.label1);
-            this.grbInfoProject.Location = new System.Drawing.Point(12, 12);
-            this.grbInfoProject.Name = "grbInfoProject";
-            this.grbInfoProject.Size = new System.Drawing.Size(322, 92);
-            this.grbInfoProject.TabIndex = 4;
-            this.grbInfoProject.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(63, 65);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Bản quyền © Học viên HVKTQS";
-            // 
-            // likMTA
-            // 
-            this.likMTA.AutoSize = true;
-            this.likMTA.Location = new System.Drawing.Point(116, 38);
-            this.likMTA.Name = "likMTA";
-            this.likMTA.Size = new System.Drawing.Size(102, 13);
-            this.likMTA.TabIndex = 4;
-            this.likMTA.TabStop = true;
-            this.likMTA.Text = "http://fit.mta.edu.vn";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Website";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Chương trình quản lý bệnh viện";
-            // 
-            // btnOk
-            // 
-            this.btnOk.Location = new System.Drawing.Point(145, 264);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
-            this.btnOk.TabIndex = 3;
-            this.btnOk.Text = "OK";
-            this.btnOk.UseVisualStyleBackColor = true;
-            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // rtbInfoProject
             // 
-            this.rtbInfoProject.Location = new System.Drawing.Point(12, 110);
+            this.rtbInfoProject.Location = new System.Drawing.Point(12, 131);
             this.rtbInfoProject.Name = "rtbInfoProject";
             this.rtbInfoProject.ReadOnly = true;
-            this.rtbInfoProject.Size = new System.Drawing.Size(322, 148);
+            this.rtbInfoProject.Size = new System.Drawing.Size(322, 127);
             this.rtbInfoProject.TabIndex = 5;
             this.rtbInfoProject.Text = resources.GetString("rtbInfoProject.Text");
             this.rtbInfoProject.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // groupPanel1
+            // 
+            this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
+            this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel1.Controls.Add(this.labelX4);
+            this.groupPanel1.Controls.Add(this.labelX3);
+            this.groupPanel1.Controls.Add(this.labelX2);
+            this.groupPanel1.Controls.Add(this.labelX1);
+            this.groupPanel1.Location = new System.Drawing.Point(12, 12);
+            this.groupPanel1.Name = "groupPanel1";
+            this.groupPanel1.Size = new System.Drawing.Size(322, 100);
+            // 
+            // 
+            // 
+            this.groupPanel1.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.groupPanel1.Style.BackColorGradientAngle = 90;
+            this.groupPanel1.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.groupPanel1.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderBottomWidth = 1;
+            this.groupPanel1.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
+            this.groupPanel1.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderLeftWidth = 1;
+            this.groupPanel1.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderRightWidth = 1;
+            this.groupPanel1.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.groupPanel1.Style.BorderTopWidth = 1;
+            this.groupPanel1.Style.CornerDiameter = 4;
+            this.groupPanel1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.groupPanel1.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
+            this.groupPanel1.TabIndex = 6;
+            this.groupPanel1.Text = "Thông tin chung";
+            // 
+            // labelX1
+            // 
+            this.labelX1.Location = new System.Drawing.Point(74, 6);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(168, 23);
+            this.labelX1.TabIndex = 6;
+            this.labelX1.Text = "Chương trình quản lý bệnh viện";
+            // 
+            // labelX2
+            // 
+            this.labelX2.Location = new System.Drawing.Point(74, 34);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(49, 23);
+            this.labelX2.TabIndex = 7;
+            this.labelX2.Text = "Website";
+            // 
+            // labelX3
+            // 
+            this.labelX3.Location = new System.Drawing.Point(129, 34);
+            this.labelX3.Name = "labelX3";
+            this.labelX3.Size = new System.Drawing.Size(113, 23);
+            this.labelX3.TabIndex = 8;
+            this.labelX3.Text = "http://fit.mta.edu.vn";
+            // 
+            // labelX4
+            // 
+            this.labelX4.Location = new System.Drawing.Point(74, 55);
+            this.labelX4.Name = "labelX4";
+            this.labelX4.Size = new System.Drawing.Size(168, 23);
+            this.labelX4.TabIndex = 9;
+            this.labelX4.Text = "Bản quyền © Học viên HVKTQS";
+            // 
+            // btnExit
+            // 
+            this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnExit.Location = new System.Drawing.Point(121, 268);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 7;
+            this.btnExit.Text = "OK";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmAbout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 296);
-            this.Controls.Add(this.grbInfoProject);
-            this.Controls.Add(this.btnOk);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.rtbInfoProject);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -122,21 +140,20 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin chương trình";
             this.Load += new System.EventHandler(this.frmAbout_Load);
-            this.grbInfoProject.ResumeLayout(false);
-            this.grbInfoProject.PerformLayout();
+            this.groupPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox grbInfoProject;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.LinkLabel likMTA;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.RichTextBox rtbInfoProject;
+        private DevComponents.DotNetBar.Controls.GroupPanel groupPanel1;
+        private DevComponents.DotNetBar.LabelX labelX4;
+        private DevComponents.DotNetBar.LabelX labelX3;
+        private DevComponents.DotNetBar.LabelX labelX2;
+        private DevComponents.DotNetBar.LabelX labelX1;
+        private DevComponents.DotNetBar.ButtonX btnExit;
 
     }
 }

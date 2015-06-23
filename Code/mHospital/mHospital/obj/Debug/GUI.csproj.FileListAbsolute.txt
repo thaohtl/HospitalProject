@@ -17,3 +17,6 @@ D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\mHospital\obj\Debug\m
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\mHospital\obj\Debug\mHospital.frmPermission.resources
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\mHospital\obj\Debug\mHospital.Properties.Resources.resources
 D:\MyGithub\HospitalProject\HospitalProject\Code\MHospital\mHospital\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\THUC_TAP_CNTT\HospitalProject\Code\MHospital\mHospital\bin\Debug\mHospital.exe.config
+D:\THUC_TAP_CNTT\HospitalProject\Code\MHospital\mHospital\obj\Debug\mHospital.exe
+D:\THUC_TAP_CNTT\HospitalProject\Code\MHospital\mHospital\obj\Debug\mHospital.pdb
