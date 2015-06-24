@@ -16,11 +16,6 @@ namespace mHospital
         {
             InitializeComponent();
         }
-
-        private void frmMHospital_Load(object sender, EventArgs e)
-        {
-
-        }
         
         
         // Method close

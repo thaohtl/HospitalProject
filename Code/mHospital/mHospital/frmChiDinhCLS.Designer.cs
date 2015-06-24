@@ -33,12 +33,6 @@
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.txtSearch = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.grvChiDinhCLS = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.maBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenPhongKham = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenXN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenBS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnAdd = new DevComponents.DotNetBar.ButtonX();
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.txtMaBN = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -53,6 +47,13 @@
             this.btnEdit = new DevComponents.DotNetBar.ButtonX();
             this.btnDelete = new DevComponents.DotNetBar.ButtonX();
             this.btnEnd = new DevComponents.DotNetBar.ButtonX();
+            this.maCLS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenPhongKham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenXN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenBS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grvChiDinhCLS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateTimeInput)).BeginInit();
             this.SuspendLayout();
@@ -93,6 +94,7 @@
             // 
             this.grvChiDinhCLS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grvChiDinhCLS.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.maCLS,
             this.maBN,
             this.tenBN,
             this.tenPhongKham,
@@ -112,36 +114,6 @@
             this.grvChiDinhCLS.Name = "grvChiDinhCLS";
             this.grvChiDinhCLS.Size = new System.Drawing.Size(643, 245);
             this.grvChiDinhCLS.TabIndex = 4;
-            // 
-            // maBN
-            // 
-            this.maBN.HeaderText = "Mã bệnh nhân";
-            this.maBN.Name = "maBN";
-            // 
-            // tenBN
-            // 
-            this.tenBN.HeaderText = "Họ và tên";
-            this.tenBN.Name = "tenBN";
-            // 
-            // tenPhongKham
-            // 
-            this.tenPhongKham.HeaderText = "Tên phòng khám";
-            this.tenPhongKham.Name = "tenPhongKham";
-            // 
-            // tenXN
-            // 
-            this.tenXN.HeaderText = "Tên xét nghiệm";
-            this.tenXN.Name = "tenXN";
-            // 
-            // time
-            // 
-            this.time.HeaderText = "Thời gian thực hiện";
-            this.time.Name = "time";
-            // 
-            // tenBS
-            // 
-            this.tenBS.HeaderText = "Bác sĩ chỉ định";
-            this.tenBS.Name = "tenBS";
             // 
             // btnAdd
             // 
@@ -309,6 +281,41 @@
             this.btnEnd.TabIndex = 7;
             this.btnEnd.Text = "Đóng";
             // 
+            // maCLS
+            // 
+            this.maCLS.HeaderText = "Mã cận lâm sàng";
+            this.maCLS.Name = "maCLS";
+            // 
+            // maBN
+            // 
+            this.maBN.HeaderText = "Mã bệnh nhân";
+            this.maBN.Name = "maBN";
+            // 
+            // tenBN
+            // 
+            this.tenBN.HeaderText = "Họ và tên";
+            this.tenBN.Name = "tenBN";
+            // 
+            // tenPhongKham
+            // 
+            this.tenPhongKham.HeaderText = "Tên phòng khám";
+            this.tenPhongKham.Name = "tenPhongKham";
+            // 
+            // tenXN
+            // 
+            this.tenXN.HeaderText = "Tên xét nghiệm";
+            this.tenXN.Name = "tenXN";
+            // 
+            // time
+            // 
+            this.time.HeaderText = "Thời gian thực hiện";
+            this.time.Name = "time";
+            // 
+            // tenBS
+            // 
+            this.tenBS.HeaderText = "Bác sĩ chỉ định";
+            this.tenBS.Name = "tenBS";
+            // 
             // frmChiDinhCLS
             // 
             this.ClientSize = new System.Drawing.Size(727, 512);
@@ -355,16 +362,17 @@
         private DevComponents.DotNetBar.Controls.TextBoxX txtBacSi;
         private DevComponents.DotNetBar.LabelX labelX6;
         private DevComponents.DotNetBar.Controls.TextBoxX txtPhongKham;
+        private DevComponents.DotNetBar.LabelX labelX7;
+        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateTimeInput;
+        private DevComponents.DotNetBar.ButtonX btnEdit;
+        private DevComponents.DotNetBar.ButtonX btnDelete;
+        private DevComponents.DotNetBar.ButtonX btnEnd;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maCLS;
         private System.Windows.Forms.DataGridViewTextBoxColumn maBN;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenBN;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenPhongKham;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenXN;
         private System.Windows.Forms.DataGridViewTextBoxColumn time;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenBS;
-        private DevComponents.DotNetBar.LabelX labelX7;
-        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateTimeInput;
-        private DevComponents.DotNetBar.ButtonX btnEdit;
-        private DevComponents.DotNetBar.ButtonX btnDelete;
-        private DevComponents.DotNetBar.ButtonX btnEnd;
     }
 }
