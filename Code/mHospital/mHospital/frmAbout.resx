@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="rtbInfoProject.Text" xml:space="preserve">
-    <value>Đây là chương trình quản lý bệnh viện.
+    <value>Đây là chương trình quản lý bệnh viện dành cho bệnh viện đa khoa Y học cổ truyền Hà Nội.
 Chương trình chạy trên tất cả các hệ điều hành Windows.
 
 Các thành viên dự án:

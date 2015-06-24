@@ -66,5 +66,29 @@ namespace mHospital
             frmAbout fabout = new frmAbout();
             fabout.ShowDialog();
         }
+
+        private void btnDanhMucCLS_Click(object sender, EventArgs e)
+        {
+            frmDanhMucCLS fDanhmucCLS = new frmDanhMucCLS();
+            fDanhmucCLS.ShowDialog();
+        }
+
+        private void btnChiDinhCLS_Click(object sender, EventArgs e)
+        {
+            frmChiDinhCLS fChiDinhCLS = new frmChiDinhCLS();
+            fChiDinhCLS.ShowDialog();
+        }
+
+        private void btnKetQuaCLS_Click(object sender, EventArgs e)
+        {
+            frmKetQuaCLS fKetQuaCLS = new frmKetQuaCLS();
+            fKetQuaCLS.ShowDialog();
+        }
+
+        private void btnChiTietPT_Click(object sender, EventArgs e)
+        {
+            frmChiTietPhieuThu fChiTietPT = new frmChiTietPhieuThu();
+            fChiTietPT.ShowDialog();
+        }
     }
 }

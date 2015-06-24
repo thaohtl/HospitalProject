@@ -22,14 +22,21 @@ namespace mHospital
 
         }
 
-        private void btnOk_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private void frmAbout_Load(object sender, EventArgs e)
         {
 
         }
+
+        private void grbInfoProject_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOK_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
