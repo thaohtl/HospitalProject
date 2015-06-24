@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblChiTietPT = new DevComponents.DotNetBar.LabelX();
-            this.lblMaPT = new DevComponents.DotNetBar.LabelX();
-            this.labelX5 = new DevComponents.DotNetBar.LabelX();
-            this.lblMaDV = new DevComponents.DotNetBar.LabelX();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.lblDonGia = new DevComponents.DotNetBar.LabelX();
-            this.labelX4 = new DevComponents.DotNetBar.LabelX();
-            this.lblMaHSBN = new DevComponents.DotNetBar.LabelX();
-            this.labelX7 = new DevComponents.DotNetBar.LabelX();
             this.btnDong = new DevComponents.DotNetBar.ButtonX();
+            this.dataGridViewX2 = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblChiTietPT
@@ -49,78 +49,6 @@
             this.lblChiTietPT.TabIndex = 18;
             this.lblChiTietPT.Text = "CHI TIẾT PHIẾU THU";
             // 
-            // lblMaPT
-            // 
-            this.lblMaPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaPT.Location = new System.Drawing.Point(175, 125);
-            this.lblMaPT.Name = "lblMaPT";
-            this.lblMaPT.Size = new System.Drawing.Size(490, 23);
-            this.lblMaPT.TabIndex = 19;
-            this.lblMaPT.Text = ".......................................................................";
-            // 
-            // labelX5
-            // 
-            this.labelX5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX5.Location = new System.Drawing.Point(11, 125);
-            this.labelX5.Name = "labelX5";
-            this.labelX5.Size = new System.Drawing.Size(126, 23);
-            this.labelX5.TabIndex = 20;
-            this.labelX5.Text = "Mã Phiếu Thu:";
-            // 
-            // lblMaDV
-            // 
-            this.lblMaDV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaDV.Location = new System.Drawing.Point(175, 181);
-            this.lblMaDV.Name = "lblMaDV";
-            this.lblMaDV.Size = new System.Drawing.Size(490, 23);
-            this.lblMaDV.TabIndex = 21;
-            this.lblMaDV.Text = ".......................................................................";
-            // 
-            // labelX2
-            // 
-            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX2.Location = new System.Drawing.Point(11, 181);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(126, 23);
-            this.labelX2.TabIndex = 22;
-            this.labelX2.Text = "Mã Dịch Vụ:";
-            // 
-            // lblDonGia
-            // 
-            this.lblDonGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDonGia.Location = new System.Drawing.Point(175, 243);
-            this.lblDonGia.Name = "lblDonGia";
-            this.lblDonGia.Size = new System.Drawing.Size(490, 23);
-            this.lblDonGia.TabIndex = 23;
-            this.lblDonGia.Text = ".......................................................................";
-            // 
-            // labelX4
-            // 
-            this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX4.Location = new System.Drawing.Point(11, 243);
-            this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(126, 23);
-            this.labelX4.TabIndex = 24;
-            this.labelX4.Text = "Đơn Giá:";
-            // 
-            // lblMaHSBN
-            // 
-            this.lblMaHSBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMaHSBN.Location = new System.Drawing.Point(175, 303);
-            this.lblMaHSBN.Name = "lblMaHSBN";
-            this.lblMaHSBN.Size = new System.Drawing.Size(490, 23);
-            this.lblMaHSBN.TabIndex = 25;
-            this.lblMaHSBN.Text = ".......................................................................";
-            // 
-            // labelX7
-            // 
-            this.labelX7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX7.Location = new System.Drawing.Point(11, 303);
-            this.labelX7.Name = "labelX7";
-            this.labelX7.Size = new System.Drawing.Size(126, 23);
-            this.labelX7.TabIndex = 26;
-            this.labelX7.Text = "Mã HSBN:";
-            // 
             // btnDong
             // 
             this.btnDong.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
@@ -131,24 +59,66 @@
             this.btnDong.TabIndex = 27;
             this.btnDong.Text = "Đóng";
             // 
+            // dataGridViewX2
+            // 
+            this.dataGridViewX2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewX2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewX2.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridViewX2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.dataGridViewX2.Location = new System.Drawing.Point(12, 116);
+            this.dataGridViewX2.Name = "dataGridViewX2";
+            this.dataGridViewX2.Size = new System.Drawing.Size(643, 270);
+            this.dataGridViewX2.TabIndex = 29;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.HeaderText = "Mã Chi Tiết Hóa Đơn";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Mã Hóa Đơn";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.HeaderText = "Danh Mục Thu Phí";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "Số Lượng Số Lần";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.HeaderText = "Số Tiền";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
             // frmChiTietPhieuThu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.ClientSize = new System.Drawing.Size(677, 491);
+            this.Controls.Add(this.dataGridViewX2);
             this.Controls.Add(this.btnDong);
-            this.Controls.Add(this.lblMaHSBN);
-            this.Controls.Add(this.labelX7);
-            this.Controls.Add(this.lblDonGia);
-            this.Controls.Add(this.labelX4);
-            this.Controls.Add(this.lblMaDV);
-            this.Controls.Add(this.labelX2);
-            this.Controls.Add(this.lblMaPT);
-            this.Controls.Add(this.labelX5);
             this.Controls.Add(this.lblChiTietPT);
             this.Name = "frmChiTietPhieuThu";
             this.Text = "frmChiTietPhieuThu";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -156,14 +126,12 @@
         #endregion
 
         private DevComponents.DotNetBar.LabelX lblChiTietPT;
-        private DevComponents.DotNetBar.LabelX lblMaPT;
-        private DevComponents.DotNetBar.LabelX labelX5;
-        private DevComponents.DotNetBar.LabelX lblMaDV;
-        private DevComponents.DotNetBar.LabelX labelX2;
-        private DevComponents.DotNetBar.LabelX lblDonGia;
-        private DevComponents.DotNetBar.LabelX labelX4;
-        private DevComponents.DotNetBar.LabelX lblMaHSBN;
-        private DevComponents.DotNetBar.LabelX labelX7;
         private DevComponents.DotNetBar.ButtonX btnDong;
+        private DevComponents.DotNetBar.Controls.DataGridViewX dataGridViewX2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
     }
 }
