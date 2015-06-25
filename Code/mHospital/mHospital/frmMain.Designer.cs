@@ -29,21 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMHospital));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMHospital));
             this.ribbonControl = new DevComponents.DotNetBar.RibbonControl();
-            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
-            this.rbbTaskHelp = new DevComponents.DotNetBar.RibbonBar();
-            this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
-            this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
-            this.rbbTaskUser = new DevComponents.DotNetBar.RibbonBar();
-            this.btnSignOut = new DevComponents.DotNetBar.ButtonItem();
-            this.btnControlU = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();
-            this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();
             this.office2007StartButton1 = new DevComponents.DotNetBar.Office2007StartButton();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
             this.itemContainer2 = new DevComponents.DotNetBar.ItemContainer();
@@ -65,21 +57,26 @@
             this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();
             this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();
             this.tabControl = new DevComponents.DotNetBar.TabControl();
-            this.tabControlPanel6 = new DevComponents.DotNetBar.TabControlPanel();
-            this.labelX12 = new DevComponents.DotNetBar.LabelX();
-            this.btnCTPhieuThu = new DevComponents.DotNetBar.ButtonX();
-            this.btnThanhToan = new DevComponents.DotNetBar.ButtonX();
-            this.lblTongTien = new DevComponents.DotNetBar.LabelX();
-            this.lblTiemKiem = new DevComponents.DotNetBar.LabelX();
-            this.txtTimKiem = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.grvVienPhi = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblVienPhi = new DevComponents.DotNetBar.LabelX();
-            this.tabItem6 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
+            this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.btnKetQuaCLS = new DevComponents.DotNetBar.ButtonX();
+            this.btnChiDinhCLS = new DevComponents.DotNetBar.ButtonX();
+            this.btnDanhMucCLS = new DevComponents.DotNetBar.ButtonX();
+            this.txtSearchCLS = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.grvCLS = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.maCLS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenPhongKham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenXN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenBS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabControlPanel4 = new DevComponents.DotNetBar.TabControlPanel();
             this.txtGhiChu = new System.Windows.Forms.RichTextBox();
             this.txtCachSD = new System.Windows.Forms.RichTextBox();
@@ -108,48 +105,55 @@
             this.cachSD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.note = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabItem4 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel2 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem2 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel3 = new DevComponents.DotNetBar.TabControlPanel();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.btnKetQuaCLS = new DevComponents.DotNetBar.ButtonX();
-            this.btnChiDinhCLS = new DevComponents.DotNetBar.ButtonX();
-            this.btnDanhMucCLS = new DevComponents.DotNetBar.ButtonX();
-            this.txtSearchCLS = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.grvCLS = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.tabItem3 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.tabControlPanel1 = new DevComponents.DotNetBar.TabControlPanel();
-            this.tabItem1 = new DevComponents.DotNetBar.TabItem(this.components);
+            this.tabControlPanel6 = new DevComponents.DotNetBar.TabControlPanel();
+            this.labelX12 = new DevComponents.DotNetBar.LabelX();
+            this.btnCTPhieuThu = new DevComponents.DotNetBar.ButtonX();
+            this.btnThanhToan = new DevComponents.DotNetBar.ButtonX();
+            this.lblTongTien = new DevComponents.DotNetBar.LabelX();
+            this.lblTiemKiem = new DevComponents.DotNetBar.LabelX();
+            this.txtTimKiem = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.grvVienPhi = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblVienPhi = new DevComponents.DotNetBar.LabelX();
+            this.tabItem6 = new DevComponents.DotNetBar.TabItem(this.components);
             this.tabItem5 = new DevComponents.DotNetBar.TabItem(this.components);
-            this.maCLS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenPhongKham = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenXN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenBS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ribbonBar2 = new DevComponents.DotNetBar.RibbonBar();
+            this.btTiepNhanBN = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnKhamBenh = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar3 = new DevComponents.DotNetBar.RibbonBar();
+            this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
+            this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
+            this.ribbonBar6 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
+            this.btnCLS = new DevComponents.DotNetBar.ButtonItem();
+            this.btnQLThuoc = new DevComponents.DotNetBar.ButtonItem();
+            this.btnVienPhi = new DevComponents.DotNetBar.ButtonItem();
+            this.btnAbout = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar7 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnHelp = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonControl.SuspendLayout();
-            this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).BeginInit();
             this.tabControl.SuspendLayout();
-            this.tabControlPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grvVienPhi)).BeginInit();
-            this.tabControlPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grvThuoc)).BeginInit();
             this.tabControlPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grvCLS)).BeginInit();
+            this.tabControlPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grvThuoc)).BeginInit();
+            this.tabControlPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grvVienPhi)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl
             // 
-            this.ribbonControl.Controls.Add(this.ribbonPanel2);
             this.ribbonControl.Controls.Add(this.ribbonPanel1);
             this.ribbonControl.Dock = System.Windows.Forms.DockStyle.Top;
             this.ribbonControl.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.ribbonTabItem1,
-            this.ribbonTabItem2});
+            this.ribbonTabItem1});
             this.ribbonControl.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl.Name = "ribbonControl";
@@ -157,123 +161,35 @@
             this.ribbonControl.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.office2007StartButton1,
             this.qatCustomizeItem1});
-            this.ribbonControl.Size = new System.Drawing.Size(824, 120);
+            this.ribbonControl.Size = new System.Drawing.Size(824, 145);
             this.ribbonControl.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
             this.ribbonControl.TabGroupHeight = 14;
             this.ribbonControl.TabIndex = 0;
-            this.ribbonControl.Click += new System.EventHandler(this.ribbonControl_Click);
-            // 
-            // ribbonPanel2
-            // 
-            this.ribbonPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.ribbonPanel2.Controls.Add(this.rbbTaskHelp);
-            this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel2.Location = new System.Drawing.Point(0, 25);
-            this.ribbonPanel2.Name = "ribbonPanel2";
-            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel2.Size = new System.Drawing.Size(824, 93);
-            this.ribbonPanel2.TabIndex = 2;
-            // 
-            // rbbTaskHelp
-            // 
-            this.rbbTaskHelp.AutoOverflowEnabled = true;
-            this.rbbTaskHelp.Dock = System.Windows.Forms.DockStyle.Left;
-            this.rbbTaskHelp.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnHelp,
-            this.btnAbout});
-            this.rbbTaskHelp.Location = new System.Drawing.Point(3, 0);
-            this.rbbTaskHelp.Name = "rbbTaskHelp";
-            this.rbbTaskHelp.Size = new System.Drawing.Size(128, 90);
-            this.rbbTaskHelp.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.rbbTaskHelp.TabIndex = 0;
-            this.rbbTaskHelp.Text = "Tác vụ";
-            // 
-            // btnHelp
-            // 
-            this.btnHelp.Image = global::mHospital.Properties.Resources.question;
-            this.btnHelp.ImagePaddingHorizontal = 8;
-            this.btnHelp.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.SubItemsExpandWidth = 14;
-            this.btnHelp.Text = "Hướng dẫn sử dụng";
-            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
-            // 
-            // btnAbout
-            // 
-            this.btnAbout.Image = global::mHospital.Properties.Resources.home;
-            this.btnAbout.ImagePaddingHorizontal = 8;
-            this.btnAbout.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.RibbonWordWrap = false;
-            this.btnAbout.SubItemsExpandWidth = 14;
-            this.btnAbout.Text = "Thông tin";
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // ribbonPanel1
             // 
             this.ribbonPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.ribbonPanel1.Controls.Add(this.rbbTaskUser);
+            this.ribbonPanel1.Controls.Add(this.ribbonBar7);
+            this.ribbonPanel1.Controls.Add(this.ribbonBar6);
+            this.ribbonPanel1.Controls.Add(this.ribbonBar5);
+            this.ribbonPanel1.Controls.Add(this.ribbonBar4);
+            this.ribbonPanel1.Controls.Add(this.ribbonBar3);
+            this.ribbonPanel1.Controls.Add(this.ribbonBar1);
+            this.ribbonPanel1.Controls.Add(this.ribbonBar2);
             this.ribbonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonPanel1.Location = new System.Drawing.Point(0, 25);
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel1.Size = new System.Drawing.Size(825, 118);
+            this.ribbonPanel1.Size = new System.Drawing.Size(824, 118);
             this.ribbonPanel1.TabIndex = 1;
-            this.ribbonPanel1.Visible = false;
-            this.ribbonPanel1.Click += new System.EventHandler(this.ribbonPanel1_Click);
-            // 
-            // rbbTaskUser
-            // 
-            this.rbbTaskUser.AutoOverflowEnabled = true;
-            this.rbbTaskUser.Dock = System.Windows.Forms.DockStyle.Left;
-            this.rbbTaskUser.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnSignOut,
-            this.btnControlU});
-            this.rbbTaskUser.Location = new System.Drawing.Point(3, 0);
-            this.rbbTaskUser.Name = "rbbTaskUser";
-            this.rbbTaskUser.Size = new System.Drawing.Size(120, 115);
-            this.rbbTaskUser.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
-            this.rbbTaskUser.TabIndex = 0;
-            this.rbbTaskUser.Text = "Tác vụ";
-            // 
-            // btnSignOut
-            // 
-            this.btnSignOut.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnSignOut.Image = global::mHospital.Properties.Resources.unlocked;
-            this.btnSignOut.ImageListSizeSelection = DevComponents.DotNetBar.eButtonImageListSelection.Medium;
-            this.btnSignOut.ImagePaddingHorizontal = 8;
-            this.btnSignOut.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnSignOut.Name = "btnSignOut";
-            this.btnSignOut.RibbonWordWrap = false;
-            this.btnSignOut.SubItemsExpandWidth = 14;
-            this.btnSignOut.Text = "Đăng xuất";
-            this.btnSignOut.Click += new System.EventHandler(this.btnSignOut_Click);
-            // 
-            // btnControlU
-            // 
-            this.btnControlU.Image = global::mHospital.Properties.Resources.user1;
-            this.btnControlU.ImagePaddingHorizontal = 8;
-            this.btnControlU.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnControlU.Name = "btnControlU";
-            this.btnControlU.RibbonWordWrap = false;
-            this.btnControlU.SubItemsExpandWidth = 14;
-            this.btnControlU.Text = "Quản trị";
-            this.btnControlU.Click += new System.EventHandler(this.btnControlU_Click);
             // 
             // ribbonTabItem1
             // 
+            this.ribbonTabItem1.Checked = true;
             this.ribbonTabItem1.ImagePaddingHorizontal = 8;
             this.ribbonTabItem1.Name = "ribbonTabItem1";
             this.ribbonTabItem1.Panel = this.ribbonPanel1;
-            this.ribbonTabItem1.Text = "Người dùng";
-            // 
-            // ribbonTabItem2
-            // 
-            this.ribbonTabItem2.Checked = true;
-            this.ribbonTabItem2.ImagePaddingHorizontal = 8;
-            this.ribbonTabItem2.Name = "ribbonTabItem2";
-            this.ribbonTabItem2.Panel = this.ribbonPanel2;
-            this.ribbonTabItem2.Text = "Trợ giúp";
+            this.ribbonTabItem1.Text = "DANH MỤC CHỨC NĂNG";
             // 
             // office2007StartButton1
             // 
@@ -480,18 +396,18 @@
             // 
             this.tabControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.tabControl.CanReorderTabs = true;
+            this.tabControl.Controls.Add(this.tabControlPanel1);
+            this.tabControl.Controls.Add(this.tabControlPanel2);
             this.tabControl.Controls.Add(this.tabControlPanel3);
             this.tabControl.Controls.Add(this.tabControlPanel4);
             this.tabControl.Controls.Add(this.tabControlPanel6);
-            this.tabControl.Controls.Add(this.tabControlPanel2);
-            this.tabControl.Controls.Add(this.tabControlPanel1);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.ForeColor = System.Drawing.Color.Black;
-            this.tabControl.Location = new System.Drawing.Point(0, 120);
+            this.tabControl.Location = new System.Drawing.Point(0, 145);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.tabControl.SelectedTabIndex = 4;
-            this.tabControl.Size = new System.Drawing.Size(824, 591);
+            this.tabControl.Size = new System.Drawing.Size(824, 566);
             this.tabControl.Style = DevComponents.DotNetBar.eTabStripStyle.Office2007Document;
             this.tabControl.TabIndex = 1;
             this.tabControl.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
@@ -502,159 +418,204 @@
             this.tabControl.Tabs.Add(this.tabItem6);
             this.tabControl.Text = "tabControl1";
             // 
-            // tabControlPanel6
+            // tabControlPanel1
             // 
-            this.tabControlPanel6.Controls.Add(this.labelX12);
-            this.tabControlPanel6.Controls.Add(this.btnCTPhieuThu);
-            this.tabControlPanel6.Controls.Add(this.btnThanhToan);
-            this.tabControlPanel6.Controls.Add(this.lblTongTien);
-            this.tabControlPanel6.Controls.Add(this.lblTiemKiem);
-            this.tabControlPanel6.Controls.Add(this.txtTimKiem);
-            this.tabControlPanel6.Controls.Add(this.grvVienPhi);
-            this.tabControlPanel6.Controls.Add(this.lblVienPhi);
-            this.tabControlPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel6.Location = new System.Drawing.Point(0, 22);
-            this.tabControlPanel6.Name = "tabControlPanel6";
-            this.tabControlPanel6.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel6.Size = new System.Drawing.Size(824, 533);
-            this.tabControlPanel6.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
-            this.tabControlPanel6.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
-            this.tabControlPanel6.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel6.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
-            this.tabControlPanel6.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel1.Location = new System.Drawing.Point(0, 22);
+            this.tabControlPanel1.Name = "tabControlPanel1";
+            this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel1.Size = new System.Drawing.Size(824, 544);
+            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
+            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel6.Style.GradientAngle = 90;
-            this.tabControlPanel6.TabIndex = 6;
-            this.tabControlPanel6.TabItem = this.tabItem6;
+            this.tabControlPanel1.Style.GradientAngle = 90;
+            this.tabControlPanel1.TabIndex = 1;
+            this.tabControlPanel1.TabItem = this.tabItem1;
             // 
-            // labelX12
+            // tabItem1
             // 
-            this.labelX12.BackColor = System.Drawing.Color.Transparent;
-            this.labelX12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX12.Location = new System.Drawing.Point(515, 136);
-            this.labelX12.Name = "labelX12";
-            this.labelX12.Size = new System.Drawing.Size(269, 23);
-            this.labelX12.TabIndex = 24;
-            this.labelX12.Text = ".......................................................................";
+            this.tabItem1.AttachedControl = this.tabControlPanel1;
+            this.tabItem1.Name = "tabItem1";
+            this.tabItem1.Text = "Tiếp đón bệnh nhân";
             // 
-            // btnCTPhieuThu
+            // tabControlPanel2
             // 
-            this.btnCTPhieuThu.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCTPhieuThu.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnCTPhieuThu.Location = new System.Drawing.Point(695, 219);
-            this.btnCTPhieuThu.Name = "btnCTPhieuThu";
-            this.btnCTPhieuThu.Size = new System.Drawing.Size(113, 58);
-            this.btnCTPhieuThu.TabIndex = 23;
-            this.btnCTPhieuThu.Text = "Chi Tiết Phiếu Thu";
+            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel2.Location = new System.Drawing.Point(0, 22);
+            this.tabControlPanel2.Name = "tabControlPanel2";
+            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel2.Size = new System.Drawing.Size(824, 544);
+            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
+            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel2.Style.GradientAngle = 90;
+            this.tabControlPanel2.TabIndex = 2;
+            this.tabControlPanel2.TabItem = this.tabItem2;
             // 
-            // btnThanhToan
+            // tabItem2
             // 
-            this.btnThanhToan.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnThanhToan.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnThanhToan.Location = new System.Drawing.Point(695, 357);
-            this.btnThanhToan.Name = "btnThanhToan";
-            this.btnThanhToan.Size = new System.Drawing.Size(113, 58);
-            this.btnThanhToan.TabIndex = 19;
-            this.btnThanhToan.Text = "Thanh Toán";
+            this.tabItem2.AttachedControl = this.tabControlPanel2;
+            this.tabItem2.Name = "tabItem2";
+            this.tabItem2.Text = "Ngoại trú";
             // 
-            // lblTongTien
+            // tabControlPanel3
             // 
-            this.lblTongTien.BackColor = System.Drawing.Color.Transparent;
-            this.lblTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTongTien.Location = new System.Drawing.Point(409, 129);
-            this.lblTongTien.Name = "lblTongTien";
-            this.lblTongTien.Size = new System.Drawing.Size(135, 32);
-            this.lblTongTien.TabIndex = 22;
-            this.lblTongTien.Text = "Tổng Tiền :";
+            this.tabControlPanel3.Controls.Add(this.labelX2);
+            this.tabControlPanel3.Controls.Add(this.labelX1);
+            this.tabControlPanel3.Controls.Add(this.btnKetQuaCLS);
+            this.tabControlPanel3.Controls.Add(this.btnChiDinhCLS);
+            this.tabControlPanel3.Controls.Add(this.btnDanhMucCLS);
+            this.tabControlPanel3.Controls.Add(this.txtSearchCLS);
+            this.tabControlPanel3.Controls.Add(this.grvCLS);
+            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel3.Location = new System.Drawing.Point(0, 22);
+            this.tabControlPanel3.Name = "tabControlPanel3";
+            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel3.Size = new System.Drawing.Size(824, 544);
+            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel3.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
+            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.tabControlPanel3.Style.GradientAngle = 90;
+            this.tabControlPanel3.TabIndex = 3;
+            this.tabControlPanel3.TabItem = this.tabItem3;
             // 
-            // lblTiemKiem
+            // labelX2
             // 
-            this.lblTiemKiem.BackColor = System.Drawing.Color.Transparent;
-            this.lblTiemKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTiemKiem.Location = new System.Drawing.Point(42, 136);
-            this.lblTiemKiem.Name = "lblTiemKiem";
-            this.lblTiemKiem.Size = new System.Drawing.Size(85, 22);
-            this.lblTiemKiem.TabIndex = 21;
-            this.lblTiemKiem.Text = "Tìm kiếm";
+            this.labelX2.BackColor = System.Drawing.Color.Transparent;
+            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX2.Location = new System.Drawing.Point(155, 96);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(85, 22);
+            this.labelX2.TabIndex = 3;
+            this.labelX2.Text = "Tìm kiếm";
             // 
-            // txtTimKiem
+            // labelX1
+            // 
+            this.labelX1.BackColor = System.Drawing.Color.Transparent;
+            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX1.Location = new System.Drawing.Point(101, 40);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(529, 50);
+            this.labelX1.TabIndex = 3;
+            this.labelX1.Text = "Danh sách bệnh nhân chờ khám Cận lâm sàng";
+            // 
+            // btnKetQuaCLS
+            // 
+            this.btnKetQuaCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnKetQuaCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnKetQuaCLS.Location = new System.Drawing.Point(700, 315);
+            this.btnKetQuaCLS.Name = "btnKetQuaCLS";
+            this.btnKetQuaCLS.Size = new System.Drawing.Size(113, 58);
+            this.btnKetQuaCLS.TabIndex = 2;
+            this.btnKetQuaCLS.Text = "Kết quả CLS";
+            // 
+            // btnChiDinhCLS
+            // 
+            this.btnChiDinhCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnChiDinhCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnChiDinhCLS.Location = new System.Drawing.Point(700, 222);
+            this.btnChiDinhCLS.Name = "btnChiDinhCLS";
+            this.btnChiDinhCLS.Size = new System.Drawing.Size(113, 58);
+            this.btnChiDinhCLS.TabIndex = 2;
+            this.btnChiDinhCLS.Text = "Chỉ định CLS";
+            // 
+            // btnDanhMucCLS
+            // 
+            this.btnDanhMucCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnDanhMucCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnDanhMucCLS.Location = new System.Drawing.Point(700, 129);
+            this.btnDanhMucCLS.Name = "btnDanhMucCLS";
+            this.btnDanhMucCLS.Size = new System.Drawing.Size(113, 58);
+            this.btnDanhMucCLS.TabIndex = 2;
+            this.btnDanhMucCLS.Text = "Quản lý danh mục CLS";
+            // 
+            // txtSearchCLS
             // 
             // 
             // 
             // 
-            this.txtTimKiem.Border.Class = "TextBoxBorder";
-            this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiem.Location = new System.Drawing.Point(128, 136);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(220, 22);
-            this.txtTimKiem.TabIndex = 20;
-            this.txtTimKiem.WatermarkText = "Nhập mã hoặc tên bệnh nhân";
+            this.txtSearchCLS.Border.Class = "TextBoxBorder";
+            this.txtSearchCLS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchCLS.Location = new System.Drawing.Point(246, 96);
+            this.txtSearchCLS.Name = "txtSearchCLS";
+            this.txtSearchCLS.Size = new System.Drawing.Size(220, 22);
+            this.txtSearchCLS.TabIndex = 1;
+            this.txtSearchCLS.WatermarkText = "Nhập mã hoặc tên bệnh nhân";
             // 
-            // grvVienPhi
+            // grvCLS
             // 
-            this.grvVienPhi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grvVienPhi.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewTextBoxColumn13});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grvVienPhi.DefaultCellStyle = dataGridViewCellStyle3;
-            this.grvVienPhi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.grvVienPhi.Location = new System.Drawing.Point(16, 179);
-            this.grvVienPhi.Name = "grvVienPhi";
-            this.grvVienPhi.Size = new System.Drawing.Size(643, 270);
-            this.grvVienPhi.TabIndex = 18;
+            this.grvCLS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grvCLS.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.maCLS,
+            this.maBN,
+            this.tenBN,
+            this.tenPhongKham,
+            this.tenXN,
+            this.time,
+            this.tenBS});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grvCLS.DefaultCellStyle = dataGridViewCellStyle1;
+            this.grvCLS.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.grvCLS.Location = new System.Drawing.Point(30, 129);
+            this.grvCLS.Name = "grvCLS";
+            this.grvCLS.Size = new System.Drawing.Size(643, 245);
+            this.grvCLS.TabIndex = 0;
             // 
-            // dataGridViewTextBoxColumn9
+            // maCLS
             // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "Mã Hóa Đơn";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.maCLS.HeaderText = "Mã cận lâm sàng";
+            this.maCLS.Name = "maCLS";
             // 
-            // dataGridViewTextBoxColumn10
+            // maBN
             // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "Mã Bệnh Nhân";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.maBN.HeaderText = "Mã bệnh nhân";
+            this.maBN.Name = "maBN";
             // 
-            // dataGridViewTextBoxColumn11
+            // tenBN
             // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "Họ và tên";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.tenBN.HeaderText = "Họ và tên";
+            this.tenBN.Name = "tenBN";
             // 
-            // dataGridViewTextBoxColumn12
+            // tenPhongKham
             // 
-            this.dataGridViewTextBoxColumn12.HeaderText = "Tổng Tiền";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.tenPhongKham.HeaderText = "Tên phòng khám";
+            this.tenPhongKham.Name = "tenPhongKham";
             // 
-            // dataGridViewTextBoxColumn13
+            // tenXN
             // 
-            this.dataGridViewTextBoxColumn13.HeaderText = "Ngày Thu";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.tenXN.HeaderText = "Tên xét nghiệm";
+            this.tenXN.Name = "tenXN";
             // 
-            // lblVienPhi
+            // time
             // 
-            this.lblVienPhi.BackColor = System.Drawing.Color.Transparent;
-            this.lblVienPhi.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVienPhi.ForeColor = System.Drawing.Color.Black;
-            this.lblVienPhi.Location = new System.Drawing.Point(244, 38);
-            this.lblVienPhi.Name = "lblVienPhi";
-            this.lblVienPhi.SingleLineColor = System.Drawing.SystemColors.ControlLight;
-            this.lblVienPhi.Size = new System.Drawing.Size(250, 49);
-            this.lblVienPhi.TabIndex = 17;
-            this.lblVienPhi.Text = "Thanh Toán Viện Phí";
+            this.time.HeaderText = "Ngày giờ thực hiện";
+            this.time.Name = "time";
             // 
-            // tabItem6
+            // tenBS
             // 
-            this.tabItem6.AttachedControl = this.tabControlPanel6;
-            this.tabItem6.Name = "tabItem6";
-            this.tabItem6.Text = "Viện Phí";
+            this.tenBS.HeaderText = "Bác sĩ chỉ định";
+            this.tenBS.Name = "tenBS";
+            // 
+            // tabItem3
+            // 
+            this.tabItem3.AttachedControl = this.tabControlPanel3;
+            this.tabItem3.Name = "tabItem3";
+            this.tabItem3.Text = "Cận lâm sàng";
             // 
             // tabControlPanel4
             // 
@@ -682,7 +643,7 @@
             this.tabControlPanel4.Location = new System.Drawing.Point(0, 22);
             this.tabControlPanel4.Name = "tabControlPanel4";
             this.tabControlPanel4.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel4.Size = new System.Drawing.Size(824, 569);
+            this.tabControlPanel4.Size = new System.Drawing.Size(824, 544);
             this.tabControlPanel4.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
             this.tabControlPanel4.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
             this.tabControlPanel4.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -940,209 +901,332 @@
             this.tabItem4.Name = "tabItem4";
             this.tabItem4.Text = "Quản lý thông tin thuốc";
             // 
-            // tabControlPanel2
+            // tabControlPanel6
             // 
-            this.tabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel2.Location = new System.Drawing.Point(0, 22);
-            this.tabControlPanel2.Name = "tabControlPanel2";
-            this.tabControlPanel2.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel2.Size = new System.Drawing.Size(824, 533);
-            this.tabControlPanel2.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
-            this.tabControlPanel2.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
-            this.tabControlPanel2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel2.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
-            this.tabControlPanel2.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
+            this.tabControlPanel6.Controls.Add(this.labelX12);
+            this.tabControlPanel6.Controls.Add(this.btnCTPhieuThu);
+            this.tabControlPanel6.Controls.Add(this.btnThanhToan);
+            this.tabControlPanel6.Controls.Add(this.lblTongTien);
+            this.tabControlPanel6.Controls.Add(this.lblTiemKiem);
+            this.tabControlPanel6.Controls.Add(this.txtTimKiem);
+            this.tabControlPanel6.Controls.Add(this.grvVienPhi);
+            this.tabControlPanel6.Controls.Add(this.lblVienPhi);
+            this.tabControlPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlPanel6.Location = new System.Drawing.Point(0, 22);
+            this.tabControlPanel6.Name = "tabControlPanel6";
+            this.tabControlPanel6.Padding = new System.Windows.Forms.Padding(1);
+            this.tabControlPanel6.Size = new System.Drawing.Size(824, 544);
+            this.tabControlPanel6.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
+            this.tabControlPanel6.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
+            this.tabControlPanel6.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.tabControlPanel6.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
+            this.tabControlPanel6.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel2.Style.GradientAngle = 90;
-            this.tabControlPanel2.TabIndex = 2;
-            this.tabControlPanel2.TabItem = this.tabItem2;
+            this.tabControlPanel6.Style.GradientAngle = 90;
+            this.tabControlPanel6.TabIndex = 6;
+            this.tabControlPanel6.TabItem = this.tabItem6;
             // 
-            // tabItem2
+            // labelX12
             // 
-            this.tabItem2.AttachedControl = this.tabControlPanel2;
-            this.tabItem2.Name = "tabItem2";
-            this.tabItem2.Text = "Ngoại trú";
+            this.labelX12.BackColor = System.Drawing.Color.Transparent;
+            this.labelX12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX12.Location = new System.Drawing.Point(515, 136);
+            this.labelX12.Name = "labelX12";
+            this.labelX12.Size = new System.Drawing.Size(269, 23);
+            this.labelX12.TabIndex = 24;
+            this.labelX12.Text = ".......................................................................";
             // 
-            // tabControlPanel3
+            // btnCTPhieuThu
             // 
-            this.tabControlPanel3.Controls.Add(this.labelX2);
-            this.tabControlPanel3.Controls.Add(this.labelX1);
-            this.tabControlPanel3.Controls.Add(this.btnKetQuaCLS);
-            this.tabControlPanel3.Controls.Add(this.btnChiDinhCLS);
-            this.tabControlPanel3.Controls.Add(this.btnDanhMucCLS);
-            this.tabControlPanel3.Controls.Add(this.txtSearchCLS);
-            this.tabControlPanel3.Controls.Add(this.grvCLS);
-            this.tabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel3.Location = new System.Drawing.Point(0, 22);
-            this.tabControlPanel3.Name = "tabControlPanel3";
-            this.tabControlPanel3.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel3.Size = new System.Drawing.Size(824, 569);
-            this.tabControlPanel3.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
-            this.tabControlPanel3.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
-            this.tabControlPanel3.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel3.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
-            this.tabControlPanel3.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel3.Style.GradientAngle = 90;
-            this.tabControlPanel3.TabIndex = 3;
-            this.tabControlPanel3.TabItem = this.tabItem3;
+            this.btnCTPhieuThu.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCTPhieuThu.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnCTPhieuThu.Location = new System.Drawing.Point(695, 219);
+            this.btnCTPhieuThu.Name = "btnCTPhieuThu";
+            this.btnCTPhieuThu.Size = new System.Drawing.Size(113, 58);
+            this.btnCTPhieuThu.TabIndex = 23;
+            this.btnCTPhieuThu.Text = "Chi Tiết Phiếu Thu";
             // 
-            // labelX2
+            // btnThanhToan
             // 
-            this.labelX2.BackColor = System.Drawing.Color.Transparent;
-            this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX2.Location = new System.Drawing.Point(155, 96);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(85, 22);
-            this.labelX2.TabIndex = 3;
-            this.labelX2.Text = "Tìm kiếm";
+            this.btnThanhToan.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnThanhToan.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnThanhToan.Location = new System.Drawing.Point(695, 357);
+            this.btnThanhToan.Name = "btnThanhToan";
+            this.btnThanhToan.Size = new System.Drawing.Size(113, 58);
+            this.btnThanhToan.TabIndex = 19;
+            this.btnThanhToan.Text = "Thanh Toán";
             // 
-            // labelX1
+            // lblTongTien
             // 
-            this.labelX1.BackColor = System.Drawing.Color.Transparent;
-            this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX1.Location = new System.Drawing.Point(101, 40);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(529, 50);
-            this.labelX1.TabIndex = 3;
-            this.labelX1.Text = "Danh sách bệnh nhân chờ khám Cận lâm sàng";
+            this.lblTongTien.BackColor = System.Drawing.Color.Transparent;
+            this.lblTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongTien.Location = new System.Drawing.Point(409, 129);
+            this.lblTongTien.Name = "lblTongTien";
+            this.lblTongTien.Size = new System.Drawing.Size(135, 32);
+            this.lblTongTien.TabIndex = 22;
+            this.lblTongTien.Text = "Tổng Tiền :";
             // 
-            // btnKetQuaCLS
+            // lblTiemKiem
             // 
-            this.btnKetQuaCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnKetQuaCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnKetQuaCLS.Location = new System.Drawing.Point(700, 315);
-            this.btnKetQuaCLS.Name = "btnKetQuaCLS";
-            this.btnKetQuaCLS.Size = new System.Drawing.Size(113, 58);
-            this.btnKetQuaCLS.TabIndex = 2;
-            this.btnKetQuaCLS.Text = "Kết quả CLS";
+            this.lblTiemKiem.BackColor = System.Drawing.Color.Transparent;
+            this.lblTiemKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiemKiem.Location = new System.Drawing.Point(42, 136);
+            this.lblTiemKiem.Name = "lblTiemKiem";
+            this.lblTiemKiem.Size = new System.Drawing.Size(85, 22);
+            this.lblTiemKiem.TabIndex = 21;
+            this.lblTiemKiem.Text = "Tìm kiếm";
             // 
-            // btnChiDinhCLS
-            // 
-            this.btnChiDinhCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnChiDinhCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnChiDinhCLS.Location = new System.Drawing.Point(700, 222);
-            this.btnChiDinhCLS.Name = "btnChiDinhCLS";
-            this.btnChiDinhCLS.Size = new System.Drawing.Size(113, 58);
-            this.btnChiDinhCLS.TabIndex = 2;
-            this.btnChiDinhCLS.Text = "Chỉ định CLS";
-            // 
-            // btnDanhMucCLS
-            // 
-            this.btnDanhMucCLS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnDanhMucCLS.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnDanhMucCLS.Location = new System.Drawing.Point(700, 129);
-            this.btnDanhMucCLS.Name = "btnDanhMucCLS";
-            this.btnDanhMucCLS.Size = new System.Drawing.Size(113, 58);
-            this.btnDanhMucCLS.TabIndex = 2;
-            this.btnDanhMucCLS.Text = "Quản lý danh mục CLS";
-            // 
-            // txtSearchCLS
+            // txtTimKiem
             // 
             // 
             // 
             // 
-            this.txtSearchCLS.Border.Class = "TextBoxBorder";
-            this.txtSearchCLS.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchCLS.Location = new System.Drawing.Point(246, 96);
-            this.txtSearchCLS.Name = "txtSearchCLS";
-            this.txtSearchCLS.Size = new System.Drawing.Size(220, 22);
-            this.txtSearchCLS.TabIndex = 1;
-            this.txtSearchCLS.WatermarkText = "Nhập mã hoặc tên bệnh nhân";
+            this.txtTimKiem.Border.Class = "TextBoxBorder";
+            this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimKiem.Location = new System.Drawing.Point(128, 136);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(220, 22);
+            this.txtTimKiem.TabIndex = 20;
+            this.txtTimKiem.WatermarkText = "Nhập mã hoặc tên bệnh nhân";
             // 
-            // grvCLS
+            // grvVienPhi
             // 
-            this.grvCLS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grvCLS.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.maCLS,
-            this.maBN,
-            this.tenBN,
-            this.tenPhongKham,
-            this.tenXN,
-            this.time,
-            this.tenBS});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grvCLS.DefaultCellStyle = dataGridViewCellStyle1;
-            this.grvCLS.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.grvCLS.Location = new System.Drawing.Point(30, 129);
-            this.grvCLS.Name = "grvCLS";
-            this.grvCLS.Size = new System.Drawing.Size(643, 245);
-            this.grvCLS.TabIndex = 0;
+            this.grvVienPhi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grvVienPhi.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13});
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.grvVienPhi.DefaultCellStyle = dataGridViewCellStyle3;
+            this.grvVienPhi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.grvVienPhi.Location = new System.Drawing.Point(16, 179);
+            this.grvVienPhi.Name = "grvVienPhi";
+            this.grvVienPhi.Size = new System.Drawing.Size(643, 270);
+            this.grvVienPhi.TabIndex = 18;
             // 
-            // tabItem3
+            // dataGridViewTextBoxColumn9
             // 
-            this.tabItem3.AttachedControl = this.tabControlPanel3;
-            this.tabItem3.Name = "tabItem3";
-            this.tabItem3.Text = "Cận lâm sàng";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Mã Hóa Đơn";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             // 
-            // tabControlPanel1
+            // dataGridViewTextBoxColumn10
             // 
-            this.tabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControlPanel1.Location = new System.Drawing.Point(0, 22);
-            this.tabControlPanel1.Name = "tabControlPanel1";
-            this.tabControlPanel1.Padding = new System.Windows.Forms.Padding(1);
-            this.tabControlPanel1.Size = new System.Drawing.Size(824, 533);
-            this.tabControlPanel1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(253)))), ((int)(((byte)(254)))));
-            this.tabControlPanel1.Style.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(188)))), ((int)(((byte)(227)))));
-            this.tabControlPanel1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.tabControlPanel1.Style.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(165)))), ((int)(((byte)(199)))));
-            this.tabControlPanel1.Style.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Right) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.tabControlPanel1.Style.GradientAngle = 90;
-            this.tabControlPanel1.TabIndex = 1;
-            this.tabControlPanel1.TabItem = this.tabItem1;
+            this.dataGridViewTextBoxColumn10.HeaderText = "Mã Bệnh Nhân";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
-            // tabItem1
+            // dataGridViewTextBoxColumn11
             // 
-            this.tabItem1.AttachedControl = this.tabControlPanel1;
-            this.tabItem1.Name = "tabItem1";
-            this.tabItem1.Text = "Tiếp đón bệnh nhân";
+            this.dataGridViewTextBoxColumn11.HeaderText = "Họ và tên";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            // 
+            // dataGridViewTextBoxColumn12
+            // 
+            this.dataGridViewTextBoxColumn12.HeaderText = "Tổng Tiền";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.HeaderText = "Ngày Thu";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            // 
+            // lblVienPhi
+            // 
+            this.lblVienPhi.BackColor = System.Drawing.Color.Transparent;
+            this.lblVienPhi.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVienPhi.ForeColor = System.Drawing.Color.Black;
+            this.lblVienPhi.Location = new System.Drawing.Point(244, 38);
+            this.lblVienPhi.Name = "lblVienPhi";
+            this.lblVienPhi.SingleLineColor = System.Drawing.SystemColors.ControlLight;
+            this.lblVienPhi.Size = new System.Drawing.Size(250, 49);
+            this.lblVienPhi.TabIndex = 17;
+            this.lblVienPhi.Text = "Thanh Toán Viện Phí";
+            // 
+            // tabItem6
+            // 
+            this.tabItem6.AttachedControl = this.tabControlPanel6;
+            this.tabItem6.Name = "tabItem6";
+            this.tabItem6.Text = "Viện Phí";
             // 
             // tabItem5
             // 
             this.tabItem5.Name = "tabItem5";
             this.tabItem5.Text = "Viện phí";
             // 
-            // maCLS
+            // ribbonBar2
             // 
-            this.maCLS.HeaderText = "Mã cận lâm sàng";
-            this.maCLS.Name = "maCLS";
+            this.ribbonBar2.AutoOverflowEnabled = true;
+            this.ribbonBar2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar2.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btTiepNhanBN});
+            this.ribbonBar2.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar2.Name = "ribbonBar2";
+            this.ribbonBar2.Size = new System.Drawing.Size(83, 115);
+            this.ribbonBar2.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBar2.TabIndex = 2;
             // 
-            // maBN
+            // btTiepNhanBN
             // 
-            this.maBN.HeaderText = "Mã bệnh nhân";
-            this.maBN.Name = "maBN";
+            this.btTiepNhanBN.Image = ((System.Drawing.Image)(resources.GetObject("btTiepNhanBN.Image")));
+            this.btTiepNhanBN.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.btTiepNhanBN.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btTiepNhanBN.Name = "btTiepNhanBN";
+            this.btTiepNhanBN.SubItemsExpandWidth = 14;
+            this.btTiepNhanBN.Text = "Tiếp nhận bệnh nhân";
             // 
-            // tenBN
+            // ribbonBar1
             // 
-            this.tenBN.HeaderText = "Họ và tên";
-            this.tenBN.Name = "tenBN";
+            this.ribbonBar1.AutoOverflowEnabled = true;
+            this.ribbonBar1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnKhamBenh});
+            this.ribbonBar1.Location = new System.Drawing.Point(86, 0);
+            this.ribbonBar1.Name = "ribbonBar1";
+            this.ribbonBar1.Size = new System.Drawing.Size(83, 115);
+            this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBar1.TabIndex = 3;
             // 
-            // tenPhongKham
+            // btnKhamBenh
             // 
-            this.tenPhongKham.HeaderText = "Tên phòng khám";
-            this.tenPhongKham.Name = "tenPhongKham";
+            this.btnKhamBenh.Image = ((System.Drawing.Image)(resources.GetObject("btnKhamBenh.Image")));
+            this.btnKhamBenh.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.btnKhamBenh.ImagePaddingHorizontal = 8;
+            this.btnKhamBenh.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnKhamBenh.Name = "btnKhamBenh";
+            this.btnKhamBenh.RibbonWordWrap = false;
+            this.btnKhamBenh.SubItemsExpandWidth = 14;
+            this.btnKhamBenh.Text = "Khám bệnh";
             // 
-            // tenXN
+            // ribbonBar3
             // 
-            this.tenXN.HeaderText = "Tên xét nghiệm";
-            this.tenXN.Name = "tenXN";
+            this.ribbonBar3.AutoOverflowEnabled = true;
+            this.ribbonBar3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar3.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnCLS});
+            this.ribbonBar3.Location = new System.Drawing.Point(169, 0);
+            this.ribbonBar3.Name = "ribbonBar3";
+            this.ribbonBar3.Size = new System.Drawing.Size(86, 115);
+            this.ribbonBar3.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBar3.TabIndex = 4;
             // 
-            // time
+            // ribbonBar4
             // 
-            this.time.HeaderText = "Ngày giờ thực hiện";
-            this.time.Name = "time";
+            this.ribbonBar4.AutoOverflowEnabled = true;
+            this.ribbonBar4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar4.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnQLThuoc});
+            this.ribbonBar4.Location = new System.Drawing.Point(255, 0);
+            this.ribbonBar4.Name = "ribbonBar4";
+            this.ribbonBar4.Size = new System.Drawing.Size(104, 115);
+            this.ribbonBar4.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBar4.TabIndex = 5;
             // 
-            // tenBS
+            // ribbonBar5
             // 
-            this.tenBS.HeaderText = "Bác sĩ chỉ định";
-            this.tenBS.Name = "tenBS";
+            this.ribbonBar5.AutoOverflowEnabled = true;
+            this.ribbonBar5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnVienPhi});
+            this.ribbonBar5.Location = new System.Drawing.Point(359, 0);
+            this.ribbonBar5.Name = "ribbonBar5";
+            this.ribbonBar5.Size = new System.Drawing.Size(83, 115);
+            this.ribbonBar5.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBar5.TabIndex = 6;
+            // 
+            // ribbonBar6
+            // 
+            this.ribbonBar6.AutoOverflowEnabled = true;
+            this.ribbonBar6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar6.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnAbout});
+            this.ribbonBar6.Location = new System.Drawing.Point(442, 0);
+            this.ribbonBar6.Name = "ribbonBar6";
+            this.ribbonBar6.Size = new System.Drawing.Size(83, 115);
+            this.ribbonBar6.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBar6.TabIndex = 7;
+            // 
+            // buttonItem14
+            // 
+            this.buttonItem14.Image = ((System.Drawing.Image)(resources.GetObject("buttonItem14.Image")));
+            this.buttonItem14.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.buttonItem14.ImagePaddingHorizontal = 8;
+            this.buttonItem14.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.buttonItem14.Name = "buttonItem14";
+            this.buttonItem14.RibbonWordWrap = false;
+            this.buttonItem14.SubItemsExpandWidth = 14;
+            this.buttonItem14.Text = "Khám bệnh";
+            // 
+            // btnCLS
+            // 
+            this.btnCLS.Image = ((System.Drawing.Image)(resources.GetObject("btnCLS.Image")));
+            this.btnCLS.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.btnCLS.ImagePaddingHorizontal = 8;
+            this.btnCLS.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnCLS.Name = "btnCLS";
+            this.btnCLS.RibbonWordWrap = false;
+            this.btnCLS.SubItemsExpandWidth = 14;
+            this.btnCLS.Text = "Cận lâm sàng";
+            // 
+            // btnQLThuoc
+            // 
+            this.btnQLThuoc.Image = ((System.Drawing.Image)(resources.GetObject("btnQLThuoc.Image")));
+            this.btnQLThuoc.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.btnQLThuoc.ImagePaddingHorizontal = 8;
+            this.btnQLThuoc.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnQLThuoc.Name = "btnQLThuoc";
+            this.btnQLThuoc.SubItemsExpandWidth = 14;
+            this.btnQLThuoc.Text = "Quản lý thông tin thuốc";
+            // 
+            // btnVienPhi
+            // 
+            this.btnVienPhi.Image = ((System.Drawing.Image)(resources.GetObject("btnVienPhi.Image")));
+            this.btnVienPhi.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.btnVienPhi.ImagePaddingHorizontal = 8;
+            this.btnVienPhi.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnVienPhi.Name = "btnVienPhi";
+            this.btnVienPhi.RibbonWordWrap = false;
+            this.btnVienPhi.SubItemsExpandWidth = 14;
+            this.btnVienPhi.Text = "Viện phí";
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.Image = ((System.Drawing.Image)(resources.GetObject("btnAbout.Image")));
+            this.btnAbout.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.btnAbout.ImagePaddingHorizontal = 8;
+            this.btnAbout.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.RibbonWordWrap = false;
+            this.btnAbout.SubItemsExpandWidth = 14;
+            this.btnAbout.Text = "Thông tin";
+            // 
+            // ribbonBar7
+            // 
+            this.ribbonBar7.AutoOverflowEnabled = true;
+            this.ribbonBar7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar7.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnHelp});
+            this.ribbonBar7.Location = new System.Drawing.Point(525, 0);
+            this.ribbonBar7.Name = "ribbonBar7";
+            this.ribbonBar7.Size = new System.Drawing.Size(83, 115);
+            this.ribbonBar7.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.ribbonBar7.TabIndex = 8;
+            // 
+            // btnHelp
+            // 
+            this.btnHelp.Image = ((System.Drawing.Image)(resources.GetObject("btnHelp.Image")));
+            this.btnHelp.ImageFixedSize = new System.Drawing.Size(60, 60);
+            this.btnHelp.ImagePaddingHorizontal = 8;
+            this.btnHelp.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.SubItemsExpandWidth = 14;
+            this.btnHelp.Text = "Hướng dẫn sử dụng";
             // 
             // frmMHospital
             // 
@@ -1159,16 +1243,15 @@
             this.Text = "CHƯƠNG TRÌNH QUẢN LÝ BỆNH VIỆN";
             this.ribbonControl.ResumeLayout(false);
             this.ribbonControl.PerformLayout();
-            this.ribbonPanel2.ResumeLayout(false);
             this.ribbonPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabControl)).EndInit();
             this.tabControl.ResumeLayout(false);
-            this.tabControlPanel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grvVienPhi)).EndInit();
-            this.tabControlPanel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grvThuoc)).EndInit();
             this.tabControlPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.grvCLS)).EndInit();
+            this.tabControlPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grvThuoc)).EndInit();
+            this.tabControlPanel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.grvVienPhi)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1176,11 +1259,8 @@
         #endregion
 
         private DevComponents.DotNetBar.RibbonControl ribbonControl;
-        private DevComponents.DotNetBar.RibbonPanel ribbonPanel2;
         private DevComponents.DotNetBar.RibbonPanel ribbonPanel1;
-        private DevComponents.DotNetBar.RibbonBar rbbTaskUser;
         private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem1;
-        private DevComponents.DotNetBar.RibbonTabItem ribbonTabItem2;
         private DevComponents.DotNetBar.Office2007StartButton office2007StartButton1;
         private DevComponents.DotNetBar.ItemContainer itemContainer1;
         private DevComponents.DotNetBar.ItemContainer itemContainer2;
@@ -1201,7 +1281,6 @@
         private DevComponents.DotNetBar.ButtonItem buttonItem12;
         private DevComponents.DotNetBar.ButtonItem buttonItem13;
         private DevComponents.DotNetBar.QatCustomizeItem qatCustomizeItem1;
-        private DevComponents.DotNetBar.RibbonBar rbbTaskHelp;
         private DevComponents.DotNetBar.TabControl tabControl;
         private DevComponents.DotNetBar.TabItem tabItem5;
         private DevComponents.DotNetBar.TabControlPanel tabControlPanel4;
@@ -1212,10 +1291,6 @@
         private DevComponents.DotNetBar.TabItem tabItem2;
         private DevComponents.DotNetBar.TabControlPanel tabControlPanel1;
         private DevComponents.DotNetBar.TabItem tabItem1;
-        private DevComponents.DotNetBar.ButtonItem btnSignOut;
-        private DevComponents.DotNetBar.ButtonItem btnControlU;
-        private DevComponents.DotNetBar.ButtonItem btnHelp;
-        private DevComponents.DotNetBar.ButtonItem btnAbout;
         private DevComponents.DotNetBar.Controls.DataGridViewX grvCLS;
         private DevComponents.DotNetBar.LabelX labelX1;
         private DevComponents.DotNetBar.ButtonX btnKetQuaCLS;
@@ -1271,6 +1346,21 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tenXN;
         private System.Windows.Forms.DataGridViewTextBoxColumn time;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenBS;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar7;
+        private DevComponents.DotNetBar.ButtonItem btnHelp;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar6;
+        private DevComponents.DotNetBar.ButtonItem btnAbout;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar5;
+        private DevComponents.DotNetBar.ButtonItem btnVienPhi;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar4;
+        private DevComponents.DotNetBar.ButtonItem btnQLThuoc;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar3;
+        private DevComponents.DotNetBar.ButtonItem btnCLS;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar1;
+        private DevComponents.DotNetBar.ButtonItem btnKhamBenh;
+        private DevComponents.DotNetBar.RibbonBar ribbonBar2;
+        private DevComponents.DotNetBar.ButtonItem btTiepNhanBN;
+        private DevComponents.DotNetBar.ButtonItem buttonItem14;
 
 
 

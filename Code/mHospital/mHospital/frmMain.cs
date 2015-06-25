@@ -12,6 +12,8 @@ namespace mHospital
 {
     public partial class frmMHospital : DevComponents.DotNetBar.Office2007Form
     {
+        #region Form Events
+
         public frmMHospital()
         {
             InitializeComponent();
@@ -24,29 +26,15 @@ namespace mHospital
             Application.Exit();
         }
 
-        private void ribbonPanel1_Click(object sender, EventArgs e)
+        #endregion
+
+        #region Button Event
+
+        // About for software
+        private void btnAbout_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnControlU_Click(object sender, EventArgs e)
-        {
-            frmPermission fp = new frmPermission();
-            fp.ShowDialog();
-        }
-
-        private void ribbonControl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        // Sign out
-        private void btnSignOut_Click(object sender, EventArgs e)
-        {
-            frmLogin flogin = new frmLogin();
-            flogin.FormClosed += flogin_FormClosed;
-            this.Hide();
-            flogin.ShowDialog();
+            frmAbout fabout = new frmAbout();
+            fabout.ShowDialog();
         }
 
         // User manual
@@ -55,11 +43,20 @@ namespace mHospital
             System.Diagnostics.Process.Start("helpMHospital.chm");
         }
 
-        // About for software
-        private void btnAbout_Click(object sender, EventArgs e)
-        {
-            frmAbout fabout = new frmAbout();
-            fabout.ShowDialog();
-        }
+        //// Sign out
+        //private void btnSignOut_Click(object sender, EventArgs e)
+        //{
+        //    //frmLogin flogin = new frmLogin();
+        //    //flogin.FormClosed += flogin_FormClosed;
+        //    //this.Hide();
+        //    //flogin.ShowDialog();
+        //}
+        #endregion
+
+        #region Gridview Event
+        #endregion
+
+        #region Processing
+        #endregion
     }
 }
