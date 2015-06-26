@@ -8,3 +8,7 @@ C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DAL\bin\Debug\DA
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DAL\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DAL\obj\Debug\DAL.dll
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DAL\obj\Debug\DAL.pdb
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DAL\bin\Debug\DAL.dll
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DAL\bin\Debug\DAL.pdb
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DAL\obj\Debug\DAL.dll
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DAL\obj\Debug\DAL.pdb

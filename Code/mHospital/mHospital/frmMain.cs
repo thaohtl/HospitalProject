@@ -12,10 +12,14 @@ namespace mHospital
 {
     public partial class frmMHospital : DevComponents.DotNetBar.Office2007Form
     {
-
         public frmMHospital()
         {
             InitializeComponent();
+        }
+        private void frmMHospital_Load(object sender, EventArgs e)
+        {
+            tabControl.Tabs.Clear();
+            tabControl.Tabs.Add(tabTiepNhanBN);
         }
         
         // Method close
@@ -24,17 +28,26 @@ namespace mHospital
             Application.Exit();
         }
 
-        // About for software
-        private void btnAbout_Click_1(object sender, EventArgs e)
+        // Sign out
+        private void btnSignOut_Click(object sender, EventArgs e)
         {
-            frmAbout fabout = new frmAbout();
-            fabout.ShowDialog();
+            frmLogin flogin = new frmLogin();
+            flogin.FormClosed += flogin_FormClosed;
+            this.Hide();
+            flogin.ShowDialog();
         }
 
         // User manual
-        private void btnHelp_Click_1(object sender, EventArgs e)
+        private void btnHelp_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("helpMHospital.chm");
+        }
+
+        // About for software
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            frmAbout fabout = new frmAbout();
+            fabout.ShowDialog();
         }
 
         //kiem tra tab
@@ -54,9 +67,9 @@ namespace mHospital
         private void btTiepNhanBN_Click(object sender, EventArgs e)
         {
             //Todo - Load du lieu vao gridview
-            if (KiemTraTenTabConTrol("tabTiepDonBN") == false)
+            if (KiemTraTenTabConTrol("tabTiepNhanBN") == false)
             {
-                tabControl.Tabs.Add(tabTiepDonBN);
+                tabControl.Tabs.Add(tabTiepNhanBN);
                 tabControl.SelectedTabIndex = tabControl.Tabs.Count - 1;
             }
         }
@@ -103,10 +116,10 @@ namespace mHospital
 
         private void tabControl_TabItemClose(object sender, DevComponents.DotNetBar.TabStripActionEventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc chắn muốn đóng form?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.No)
-                return;
-            else
-                tabControl.Tabs.Remove(tabControl.SelectedTab);
+            //if (MessageBox.Show("Bạn có chắc chắn muốn đóng form?", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.No)
+            // return;
+            // else
+            tabControl.Tabs.Remove(tabControl.SelectedTab);
         }
 
         

@@ -8,3 +8,7 @@ C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\bin\Debug\DT
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\obj\Debug\DTO.dll
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\DTO\obj\Debug\DTO.pdb
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DTO\bin\Debug\DTO.dll
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DTO\bin\Debug\DTO.pdb
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DTO\obj\Debug\DTO.dll
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\DTO\obj\Debug\DTO.pdb

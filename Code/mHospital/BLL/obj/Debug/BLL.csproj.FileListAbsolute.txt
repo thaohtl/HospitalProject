@@ -26,3 +26,10 @@ C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\BLL\bin\Debug\DA
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\BLL\obj\Debug\BLL.dll
 C:\Users\ElKing\Desktop\BenhVien\HospitalProject\Code\mHospital\BLL\obj\Debug\BLL.pdb
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\BLL\bin\Debug\BLL.dll
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\BLL\bin\Debug\BLL.pdb
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\BLL\bin\Debug\DAL.dll
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\BLL\bin\Debug\DAL.pdb
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\BLL\obj\Debug\BLL.dll
+F:\SE\8.ThuctapCNTT\DuAnBenhVien\mHospital\BLL\obj\Debug\BLL.pdb
